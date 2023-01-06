@@ -1,0 +1,3 @@
+// how are these HAL include paths found?
+#include "stm32f7xx.h"
+#include "stm32f7xx_hal.h"

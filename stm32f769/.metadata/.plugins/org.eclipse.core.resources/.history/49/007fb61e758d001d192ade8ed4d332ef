@@ -1,0 +1,16 @@
+/* ========================================================================
+  Quartz Arc
+
+  Role: Boot Code
+  Date: 06/01/2023
+  Created By: Ryan McClue
+  Notice: spx license identifier
+   ======================================================================== */
+
+#include "boot.hpp"
+
+QA_Result
+SystemInitialize(void)
+{
+
+}

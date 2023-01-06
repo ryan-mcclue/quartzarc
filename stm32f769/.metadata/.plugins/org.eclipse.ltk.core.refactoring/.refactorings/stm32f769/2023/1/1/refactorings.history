@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;stm32f769/Core/handler.cpp&apos; to &apos;handlers.cpp&apos;" description="Rename resource &apos;handler.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/handler.cpp" name="handlers.cpp" stamp="1672966949547" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;stm32f769/Core/handler.hpp&apos; to &apos;handlers.hpp&apos;" description="Rename resource &apos;handler.hpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/handler.hpp" name="handlers.hpp" stamp="1672966957122" updateReferences="true"/>
+</session>

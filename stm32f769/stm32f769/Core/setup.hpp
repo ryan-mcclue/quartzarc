@@ -1,0 +1,10 @@
+#ifndef __SETUP_HPP__
+#define __SETUP_HPP__
+
+// how are these HAL include paths found?
+#include "stm32f7xx.h"
+#include "stm32f7xx_hal.h"
+
+enum QA_Result : uint8_t {QA_OK = 0, QA_Fail};
+
+#endif
