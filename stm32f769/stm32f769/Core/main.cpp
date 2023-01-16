@@ -1,6 +1,8 @@
 #include "main.hpp"
 #include "boot.hpp"
 
+#include "QAD_GPIO.hpp"
+
 int
 main(void)
 {
@@ -10,24 +12,16 @@ main(void)
     while (1) {}
   }
 
-  // Initialize GPIOs
-  GPIO_InitTypeDef GPIO_Init = {};
-  GPIO_Init.Pin = QA_USERLED_RED_GPIO_PIN;
-  GPIO_Init.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_Init.Pull = GPIO_NOPULL;
-  GPIO_Init.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(QA_USERLED_RED_GPIO_PORT, &GPIO_Init);
-
-  GPIO_Init.Pin = QA_USERLED_GREEN_GPIO_PIN;
-  HAL_GPIO_Init(QA_USERLED_GREEN_GPIO_PORT, &GPIO_Init);
-
+  // User LEDs
+  QAD_GPIO_Output *gpio_user_led_red = new QAD_GPIO_Output(QA_USERLED_RED_GPIO_PORT, QA_USERLED_RED_GPIO_PIN);
+  QAD_GPIO_Output *gpio_user_led_green = new QAD_GPIO_Output(QA_USERLED_GREEN_GPIO_PORT, QA_USERLED_GREEN_GPIO_PIN);
 
   // Processing loop
   while (1) {
-  	HAL_GPIO_WritePin(QA_USERLED_GREEN_GPIO_PORT, QA_USERLED_GREEN_GPIO_PIN, GPIO_PIN_SET);
-  	HAL_Delay(500);
-  	HAL_GPIO_WritePin(QA_USERLED_GREEN_GPIO_PORT, QA_USERLED_GREEN_GPIO_PIN, GPIO_PIN_RESET);
-  	HAL_Delay(500);
+    gpio_user_led_green->on();
+    HAL_Delay(500);
+    gpio_user_led_green->off();
+    HAL_Delay(500);
   }
 
   return 0;

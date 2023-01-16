@@ -1,4 +1,5 @@
-Core/main.o: ../Core/main.cpp ../Core/main.hpp ../Core/setup.hpp \
+QA_Drivers/QAD_GPIO.o: ../QA_Drivers/QAD_GPIO.cpp \
+ ../QA_Drivers/QAD_GPIO.hpp ../Core/setup.hpp \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f769xx.h \
  ../Drivers/CMSIS/Include/core_cm7.h \
@@ -45,9 +46,8 @@ Core/main.o: ../Core/main.cpp ../Core/main.hpp ../Core/setup.hpp \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h ../Core/boot.hpp \
- ../QA_Drivers/QAD_GPIO.hpp ../Core/setup.hpp
-../Core/main.hpp:
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h
+../QA_Drivers/QAD_GPIO.hpp:
 ../Core/setup.hpp:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f769xx.h:
@@ -96,6 +96,3 @@ Core/main.o: ../Core/main.cpp ../Core/main.hpp ../Core/setup.hpp \
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h:
-../Core/boot.hpp:
-../QA_Drivers/QAD_GPIO.hpp:
-../Core/setup.hpp:

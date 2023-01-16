@@ -35,4 +35,5 @@ Core/Startup \
 Core \
 Drivers/STM32F7xx_HAL_Driver/Src/Legacy \
 Drivers/STM32F7xx_HAL_Driver/Src \
+QA_Drivers \
 
