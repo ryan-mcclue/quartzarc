@@ -46,7 +46,7 @@ QAD_GPIO_Output::QAD_GPIO_Output(GPIO_TypeDef *gpio, uint16_t pin) :
   	}
   }
 
-  PinState QAD_GPIO_Output::getState(void) {
+  QAD_GPIO_Output::PinState QAD_GPIO_Output::getState(void) {
   	return state;
   }
 
