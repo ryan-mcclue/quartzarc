@@ -5,13 +5,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../QA_Drivers/QAD_GPIO.cpp 
+../QA_Drivers/QAD_GPIO.cpp \
+../QA_Drivers/QAD_UART.cpp 
 
 OBJS += \
-./QA_Drivers/QAD_GPIO.o 
+./QA_Drivers/QAD_GPIO.o \
+./QA_Drivers/QAD_UART.o 
 
 CPP_DEPS += \
-./QA_Drivers/QAD_GPIO.d 
+./QA_Drivers/QAD_GPIO.d \
+./QA_Drivers/QAD_UART.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +24,7 @@ QA_Drivers/%.o QA_Drivers/%.su: ../QA_Drivers/%.cpp QA_Drivers/subdir.mk
 clean: clean-QA_Drivers
 
 clean-QA_Drivers:
-	-$(RM) ./QA_Drivers/QAD_GPIO.d ./QA_Drivers/QAD_GPIO.o ./QA_Drivers/QAD_GPIO.su
+	-$(RM) ./QA_Drivers/QAD_GPIO.d ./QA_Drivers/QAD_GPIO.o ./QA_Drivers/QAD_GPIO.su ./QA_Drivers/QAD_UART.d ./QA_Drivers/QAD_UART.o ./QA_Drivers/QAD_UART.su
 
 .PHONY: clean-QA_Drivers
 

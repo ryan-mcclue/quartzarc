@@ -18,11 +18,11 @@ typedef struct {
 	uint32_t baud;
 	uint8_t irq_priority;
 
-	GPIO_InitDef *tx_gpio;
+	GPIO_TypeDef *tx_gpio;
 	uint16_t tx_pin;
 	uint8_t tx_af;
 
-	GPIO_InitDef *rx_gpio;
+	GPIO_TypeDef *rx_gpio;
 	uint16_t rx_pin;
 	uint8_t rx_af;
 } QAD_UART_InitStruct;
