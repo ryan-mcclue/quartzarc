@@ -66,6 +66,8 @@
 									<listOptionValue builtIn="false" value="../Core"/>
 									<listOptionValue builtIn="false" value="../QA_Drivers"/>
 									<listOptionValue builtIn="false" value="../QA_Tools"/>
+									<listOptionValue builtIn="false" value="../QA_Systems"/>
+									<listOptionValue builtIn="false" value="../QA_Systems/QAS_Serial"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1600957613" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
@@ -91,6 +93,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="QA_Drivers"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="QA_Systems"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="QA_Tools"/>
 					</sourceEntries>
 				</configuration>
@@ -157,6 +160,8 @@
 									<listOptionValue builtIn="false" value="../Core"/>
 									<listOptionValue builtIn="false" value="../QA_Drivers"/>
 									<listOptionValue builtIn="false" value="../QA_Tools"/>
+									<listOptionValue builtIn="false" value="../QA_Systems"/>
+									<listOptionValue builtIn="false" value="../QA_Systems/QAS_Serial"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1835270080" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
@@ -182,6 +187,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="QA_Drivers"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="QA_Systems"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="QA_Tools"/>
 					</sourceEntries>
 				</configuration>
