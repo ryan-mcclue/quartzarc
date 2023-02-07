@@ -7,6 +7,8 @@
 
 enum QA_Result : uint8_t {QA_OK = 0, QA_Fail};
 
+enum QA_InitState : uint8_t {QA_NotInitialised = 0, QA_Initialised};
+
 #define QA_USERLED_RED_GPIO_PORT GPIOJ
 #define QA_USERLED_RED_GPIO_PIN GPIO_PIN_13
 
