@@ -13047,6 +13047,145 @@ Discarded input sections
  .debug_frame   0x0000000000000000      0x438 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
  .ARM.attributes
                 0x0000000000000000       0x32 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .group         0x0000000000000000        0xc ./QA_Drivers/QAD_FMC.o
+ .text          0x0000000000000000        0x0 ./QA_Drivers/QAD_FMC.o
+ .data          0x0000000000000000        0x0 ./QA_Drivers/QAD_FMC.o
+ .bss           0x0000000000000000        0x0 ./QA_Drivers/QAD_FMC.o
+ .debug_info    0x0000000000000000       0x74 ./QA_Drivers/QAD_FMC.o
+ .debug_abbrev  0x0000000000000000       0x30 ./QA_Drivers/QAD_FMC.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x2c2 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0xb68 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x2e ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x3b ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x1c ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x22 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x8e ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x51 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x103 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x6a ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x1df ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x1c ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x22 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0xd9 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000     0x12cd ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x11f ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x19 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000    0x204b6 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x6d ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x2d5 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000     0x3749 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x17b ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x63 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000     0x1b3f ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x6c4 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x18b ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x115 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x275 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0xa5 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x24f ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x71 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x58 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x236 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x416 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x153 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x107 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x232 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x14e ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x3db ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x12 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x504 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x22c ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x61 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0xa5 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x198 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x6fc ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0xd6 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x12e ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x108 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x35 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x2d4 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0xa4 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x31a ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x4f2 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0xe4 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x773 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x1d5 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x2fe ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0xa8a ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0xa9 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x5ba ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x44 ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000      0x15b ./QA_Drivers/QAD_FMC.o
+ .debug_macro   0x0000000000000000       0x64 ./QA_Drivers/QAD_FMC.o
+ .debug_line    0x0000000000000000      0x83c ./QA_Drivers/QAD_FMC.o
+ .debug_str     0x0000000000000000   0x12c8f1 ./QA_Drivers/QAD_FMC.o
+ .comment       0x0000000000000000       0x51 ./QA_Drivers/QAD_FMC.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./QA_Drivers/QAD_FMC.o
  .group         0x0000000000000000        0xc ./QA_Drivers/QAD_GPIO.o
  .group         0x0000000000000000        0xc ./QA_Drivers/QAD_GPIO.o
  .group         0x0000000000000000        0xc ./QA_Drivers/QAD_GPIO.o
@@ -14347,6 +14486,7 @@ LOAD ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.o
 LOAD ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.o
 LOAD ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.o
 LOAD ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
+LOAD ./QA_Drivers/QAD_FMC.o
 LOAD ./QA_Drivers/QAD_GPIO.o
 LOAD ./QA_Drivers/QAD_UART.o
 LOAD ./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.o
