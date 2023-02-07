@@ -2,6 +2,9 @@
 #include "boot.hpp"
 
 #include "QAD_GPIO.hpp"
+#include "QAS_Serial_Dev_UART.hpp"
+
+QAS_Serial_Dev_UART *Serial_UART;
 
 int
 main(void)
@@ -25,6 +28,24 @@ main(void)
   QAD_GPIO_Output *gpio_user_led_green = new QAD_GPIO_Output(QA_USERLED_GREEN_GPIO_PORT, QA_USERLED_GREEN_GPIO_PIN);
 
   QAD_GPIO_Input *gpio_user_button = new QAD_GPIO_Input(QA_USERBUTTON_GPIO_PORT, QA_USERBUTTON_GPIO_PIN);
+
+  QAS_Serial_Dev_UART_InitStruct serial_init = {};
+  serial_init.uart.uart = QAD_UART1;
+  serial_init.uart.baud = QAD_UART1_BAUDRATE;
+  serial_init.uart.irq_priority = QAD_IRQPRIORITY_UART1;
+  serial_init.uart.tx_gpio = QAD_UART1_TX_PORT;
+  serial_init.uart.tx_pin = QAD_UART1_TX_PIN;
+  serial_init.uart.tx_af = QAD_UART1_TX_AF;
+  serial_init.uart.rx_gpio = QAD_UART1_RX_PORT;
+  serial_init.uart.rx_pin = QAD_UART1_RX_PIN;
+  serial_init.uart.rx_af = QAD_UART1_RX_AF;
+  serial_init.txfifo_size = QAD_UART1_TX_FIFOSIZE;
+  serial_init.rxfifo_size = QAD_UART1_RX_FIFOSIZE;
+  Serial_UART = new QAS_Serial_Dev_UART(serial_init);
+
+  if (Serial_UART->init(NULL) == QA_OK) {
+    Serial_UART->txStringCR("Hello World!");
+  }
 
   // Processing loop
 	new_tick = HAL_GetTick();

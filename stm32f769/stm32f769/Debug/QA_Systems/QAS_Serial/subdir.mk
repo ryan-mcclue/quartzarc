@@ -5,13 +5,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.cpp 
+../QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.cpp \
+../QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.cpp 
 
 OBJS += \
-./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.o 
+./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.o \
+./QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.o 
 
 CPP_DEPS += \
-./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.d 
+./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.d \
+./QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -21,7 +24,7 @@ QA_Systems/QAS_Serial/%.o QA_Systems/QAS_Serial/%.su: ../QA_Systems/QAS_Serial/%
 clean: clean-QA_Systems-2f-QAS_Serial
 
 clean-QA_Systems-2f-QAS_Serial:
-	-$(RM) ./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.d ./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.o ./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.su
+	-$(RM) ./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.d ./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.o ./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.su ./QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.d ./QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.o ./QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.su
 
 .PHONY: clean-QA_Systems-2f-QAS_Serial
 

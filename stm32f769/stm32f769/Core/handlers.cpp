@@ -1,5 +1,9 @@
 #include "handlers.hpp"
 
+#include "QAS_Serial_Dev_UART.hpp"
+
+extern QAS_Serial_Dev_UART *Serial_UART;
+
 void
 NMI_Handler(void)
 {
@@ -49,3 +53,11 @@ SysTick_Handler(void)
 {
 	HAL_IncTick();
 }
+
+void USART1_IRQHandler(void) {
+  Serial_UART->handler(NULL);
+}
+
+
+
+

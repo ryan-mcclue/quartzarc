@@ -16,6 +16,9 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 
+// determine this name from the startup.s
+void USART1_IRQHandler(void);
+
 }
 
 #endif

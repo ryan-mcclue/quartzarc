@@ -63,6 +63,14 @@ QAD_UART::PeriphState QAD_UART::get_rx_state(void) {
 	return rx_state;
 }
 
+void QAD_UART::data_tx(uint8_t data) {
+  handle.Instance->TDR = data;
+}
+
+uint8_t QAD_UART::data_rx(void) {
+  return handle.Instance->RDR;
+}
+
 QA_Result QAD_UART::periphInit(void) {
 	GPIO_InitTypeDef GPIO_Init = {0};
 

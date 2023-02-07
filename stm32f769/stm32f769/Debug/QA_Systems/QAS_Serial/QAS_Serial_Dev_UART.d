@@ -1,5 +1,6 @@
-Core/handlers.o: ../Core/handlers.cpp ../Core/handlers.hpp \
- ../Core/setup.hpp \
+QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.o: \
+ ../QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.cpp \
+ ../QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.hpp ../Core/setup.hpp \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f769xx.h \
  ../Drivers/CMSIS/Include/core_cm7.h \
@@ -47,11 +48,10 @@ Core/handlers.o: ../Core/handlers.cpp ../Core/handlers.hpp \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h \
- ../QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.hpp ../Core/setup.hpp \
  ../QA_Tools/QAT_FIFO.hpp \
  ../QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.hpp \
  ../QA_Drivers/QAD_UART.hpp
-../Core/handlers.hpp:
+../QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.hpp:
 ../Core/setup.hpp:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f769xx.h:
@@ -100,8 +100,6 @@ Core/handlers.o: ../Core/handlers.cpp ../Core/handlers.hpp \
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dsi.h:
-../QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.hpp:
-../Core/setup.hpp:
 ../QA_Tools/QAT_FIFO.hpp:
 ../QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.hpp:
 ../QA_Drivers/QAD_UART.hpp:

@@ -98,4 +98,5 @@
 "./QA_Drivers/QAD_GPIO.o"
 "./QA_Drivers/QAD_UART.o"
 "./QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.o"
+"./QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.o"
 "./QA_Tools/QAT_FIFO.o"

@@ -54,10 +54,39 @@
   	rx_state = PeriphInactive;
   }
 
-  void QAS_Serial_Dev_Base::txString(const char *str) {}
-  void QAS_Serial_Dev_Base::txStringCR(const char *str) {}
-  void QAS_Serial_Dev_Base::txCR(void) {}
-  void QAS_Serial_Dev_Base::txData(uint8_t *data, uint16_t size) {}
+  void QAS_Serial_Dev_Base::txString(const char *str) {
+  	uint16_t len = strlen(str);
+    for (uint16_t i = 0; i < len; i += 1) {
+      tx_fifo->push(str[i]);
+    }
+
+    imp_txStart();
+  }
+
+  // carriage return moves to start of line
+  // line feed goes down a line from current cursor position
+  // unix treats line feed as newline character, so a slight modification of original typewriter behaviour
+  void QAS_Serial_Dev_Base::txStringCR(const char *str) {
+  	uint16_t len = strlen(str);
+    for (uint16_t i = 0; i < len; i += 1) {
+      tx_fifo->push(str[i]);
+    }
+    tx_fifo->push(13);
+
+    imp_txStart();
+  }
+
+  void QAS_Serial_Dev_Base::txCR(void) {
+  	tx_fifo->push(13);
+  	imp_txStart();
+  }
+
+  void QAS_Serial_Dev_Base::txData(uint8_t *data, uint16_t size) {
+  	for (uint16_t i = 0; i < size; i += 1) {
+  	  tx_fifo->push(data[i]);
+  	}
+  	imp_txStart();
+  }
 
   QAS_Serial_Dev_Base::DataState QAS_Serial_Dev_Base::rxHasData(void) {
     if (rx_fifo->empty()) return NoData;

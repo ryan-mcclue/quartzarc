@@ -95,6 +95,8 @@ public:
   void stop_rx(void);
   PeriphState get_rx_state(void);
 
+  void data_tx(uint8_t data);
+  uint8_t data_rx(void);
 };
 
 // use buffers to offload work for the CPU?

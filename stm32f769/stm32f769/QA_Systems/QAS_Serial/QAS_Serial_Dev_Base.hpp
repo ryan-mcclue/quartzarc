@@ -11,6 +11,7 @@
 #include "setup.hpp"
 
 #include <memory>
+#include <string.h>
 
 #include "QAT_FIFO.hpp"
 
