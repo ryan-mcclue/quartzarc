@@ -50,7 +50,7 @@ Core/main.o: ../Core/main.cpp ../Core/main.hpp ../Core/setup.hpp \
  ../QA_Systems/QAS_Serial/QAS_Serial_Dev_UART.hpp \
  ../QA_Tools/QAT_FIFO.hpp \
  ../QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.hpp \
- ../QA_Drivers/QAD_UART.hpp
+ ../QA_Drivers/QAD_UART.hpp ../QA_Drivers/QAD_FMC.hpp
 ../Core/main.hpp:
 ../Core/setup.hpp:
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
@@ -107,3 +107,4 @@ Core/main.o: ../Core/main.cpp ../Core/main.hpp ../Core/setup.hpp \
 ../QA_Tools/QAT_FIFO.hpp:
 ../QA_Systems/QAS_Serial/QAS_Serial_Dev_Base.hpp:
 ../QA_Drivers/QAD_UART.hpp:
+../QA_Drivers/QAD_FMC.hpp:

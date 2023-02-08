@@ -3,8 +3,12 @@
 
 #include "QAD_GPIO.hpp"
 #include "QAS_Serial_Dev_UART.hpp"
+#include "QAD_FMC.hpp"
 
+// These are global so they can be accessed in fault handlers
 QAS_Serial_Dev_UART *Serial_UART;
+QAD_GPIO_Output *gpio_user_led_red;
+QAD_GPIO_Output *gpio_user_led_green;
 
 int
 main(void)
@@ -24,8 +28,8 @@ main(void)
   }
 
   // User LEDs
-  QAD_GPIO_Output *gpio_user_led_red = new QAD_GPIO_Output(QA_USERLED_RED_GPIO_PORT, QA_USERLED_RED_GPIO_PIN);
-  QAD_GPIO_Output *gpio_user_led_green = new QAD_GPIO_Output(QA_USERLED_GREEN_GPIO_PORT, QA_USERLED_GREEN_GPIO_PIN);
+  gpio_user_led_red = new QAD_GPIO_Output(QA_USERLED_RED_GPIO_PORT, QA_USERLED_RED_GPIO_PIN);
+  gpio_user_led_green = new QAD_GPIO_Output(QA_USERLED_GREEN_GPIO_PORT, QA_USERLED_GREEN_GPIO_PIN);
 
   QAD_GPIO_Input *gpio_user_button = new QAD_GPIO_Input(QA_USERBUTTON_GPIO_PORT, QA_USERBUTTON_GPIO_PIN);
 
@@ -43,8 +47,19 @@ main(void)
   serial_init.rxfifo_size = QAD_UART1_RX_FIFOSIZE;
   Serial_UART = new QAS_Serial_Dev_UART(serial_init);
 
-  if (Serial_UART->init(NULL) == QA_OK) {
-    Serial_UART->txStringCR("Hello World!");
+  if (Serial_UART->init(NULL) == QA_Fail) {
+  	gpio_user_led_red->on();
+    while (1) {}
+  }
+
+  if (QAD_FMC::init() == QA_OK) {
+    if (QAD_FMC::test() == QA_OK) {
+    	Serial_UART->txStringCR("SDRAM: Initialised and tested OK");
+    } else {
+    	Serial_UART->txStringCR("SDRAM: Initialised, failed test");
+    }
+  } else {
+  	Serial_UART->txStringCR("SDRAM: Initialisation failed");
   }
 
   // Processing loop

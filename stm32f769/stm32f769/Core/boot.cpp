@@ -31,6 +31,8 @@ SystemInitialize(void)
   // IMPORTANT: If setting systick to say 1ms, NVIC might dump some interrupts as too many
   HAL_InitTick(TICK_INT_PRIORITY);
 
+  // we want high clock speed for testing
+
   // we want LSE to power RTC?
   // The processor has some sort of 'backup' domain circuitry,
   // i.e. memory and registers that are preserved on reset, code flashing
